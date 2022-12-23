@@ -1,0 +1,27 @@
+@media (min-width: 930px) {
+  img {
+    width: 140px;
+  }
+  .logo {
+    padding: 25px;
+  }
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .sectionin {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  article {
+    font-size: 17px;
+
+    img:hover {
+      transform: scale(2);
+      transition-duration: 2s;
+    }
+    h3 {
+      font-size: 25px;
+    }
+  }
+}

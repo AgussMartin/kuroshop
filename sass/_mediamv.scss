@@ -1,0 +1,48 @@
+
+header {
+  background-color: $coloruno;
+  border-bottom: 5px solid $coloruno;
+}
+img {
+  width: 70px;
+}
+
+h1 {
+  color: $colordos;
+}
+h2 {
+  margin-top: 20px;
+}
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  margin-top: 20px;
+}
+.sectionin {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+article {
+  width: 85%;
+  height: 130;
+  margin: 10px;
+  border: 2px solid $coloruno;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-content: space-evenly;
+
+  img {
+    margin-top: 10px;
+  }
+
+  h3 {
+    color: $coloruno;
+    padding-left: 5px;
+  }
+  p {
+    color: $coloruno;
+  }
+}

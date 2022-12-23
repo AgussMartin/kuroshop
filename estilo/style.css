@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.l {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.l img {
+  width: 60px;
+}
+.l h1 {
+  font-size: 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-pills {
+  background-color: black;
+}
+
+.nav-item {
+  background-color: black;
+}
+
+.nav-link {
+  color: white;
+}
+
+footer {
+  background-color: black;
+  height: 15vh;
+}
+footer h2 {
+  color: white;
+  font-size: 20px;
+  padding: 20px 5px 5px 15px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+}
+
+header {
+  background-color: black;
+  border-bottom: 5px solid black;
+}
+
+img {
+  width: 70px;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+.sectionin {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+article {
+  width: 85%;
+  height: 130;
+  margin: 10px;
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-content: space-evenly;
+}
+article img {
+  margin-top: 10px;
+}
+article h3 {
+  color: black;
+  padding-left: 5px;
+}
+article p {
+  color: black;
+}
+
+@media (min-width: 700px) {
+  img {
+    width: 100px;
+  }
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 15px;
+  }
+  .sectionin {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 930px) {
+  img {
+    width: 140px;
+  }
+  .logo {
+    padding: 25px;
+  }
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .sectionin {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  article {
+    font-size: 17px;
+  }
+  article img:hover {
+    transform: scale(2);
+    transition-duration: 2s;
+  }
+  article h3 {
+    font-size: 25px;
+  }
+}/*# sourceMappingURL=style.css.map */
